@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sid.tutorials.java.apache.spark.app</groupId>
+        <artifactId>Apache-Spark-for-Java</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>Tutorial-01-Apache-Spark-for-Java-Developers</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Tutorial-01-Apache-Spark-for-Java-Developers</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>Section-01-Introduction</module>
+        <module>Section-02-Getting-Started</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+    </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
+</project>
