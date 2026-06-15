@@ -15,6 +15,11 @@
     <modules>
         <module>Section-01-Introduction</module>
         <module>Section-02-Getting-Started</module>
+        <module>Section-03-Reduces-on-RDDs</module>
+        <module>Section-04-Mapping-and-Outputting</module>
+        <module>Section-05-Tuples</module>
+        <module>Section-06-PairRDDs</module>
+        <module>Section-07-FlatMaps-and-Filters</module>
     </modules>
 
     <properties>
